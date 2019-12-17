@@ -1,0 +1,508 @@
+@charset "UTF-8";
+/* Body */
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* Container */
+.container {
+	width: 100%; /* den afhnei perithwria aristera dexia */
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+}
+/* Header */
+header {
+	width: 100%;
+	/* height: 8%;
+	background-color: #5D5E5D; */
+    
+    text-decoration: none;
+}
+.logo {
+	/* color: rgba(251,114,106,1);
+	font-weight: bold;
+	margin-left: auto;
+	letter-spacing: 4px;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 15px;
+	line-height: 2em;
+    font-size: 22px; */
+    position: absolute;
+    margin-left: 100px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;  
+	top: 20px;
+	overflow: hidden;
+	width: 100%;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Berlin Sans FB;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(251,114,106,1);
+}
+
+.logo_Nar {
+	position: absolute;
+    /* width: 5%; */
+    width: 60px;	
+    left: 70px;
+    top: 30px;
+	overflow: hidden;
+}
+
+.nav_bar{
+    float:right;
+    padding-right: 100px;
+    
+}
+
+.nav_bar a {
+    float: left;
+    color: rgba(83,83,83,1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Poppins;
+	font-style: normal;
+    font-weight: lighter;
+    letter-spacing: 0.3px;
+  }
+
+  .nav_bar a:hover {
+    background-color: rgba(251,114,106,1);
+    color: white;
+  }
+
+
+
+/* Home */
+
+#home {
+    /* background-color:rgb(41, 173, 41); */
+    padding-bottom:0;
+}
+
+.column {
+	width: 50%;
+	text-align: center;
+    padding-top: 180px;
+    padding-bottom: 0px;
+	float: left;
+}
+
+
+#home .column .home_title{
+    
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;    
+	
+	line-height: 65px;
+	font-family: Berlin Sans FB;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	color: rgba(251,114,106,1);
+	margin-left: 100px;
+	margin-right: 20px;
+	width: 80%;
+	margin-top: 4%;
+}
+
+#home .column p {
+	padding-left: 30px;
+	padding-right: 30px;	
+	line-height: 25px;	
+	margin-left: 100px;
+	margin-right: 20px;
+	width: 60%;
+    margin-top: 4%;
+    text-align: justify;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+    color: rgba(83,83,83,1);
+    /* padding-bottom: 100px; */
+}
+
+.home_img {
+    width: 45%;
+    padding-bottom: 100px;
+}
+
+/* Explore */
+
+
+#explore {    
+    /* background-color:rgb(173, 41, 85); */
+    width: 100%;
+}
+
+#explore .explore_title{    
+    text-align: center;
+    /* padding-left: 30px;
+    padding-right: 30px;      */
+	font-family: Berlin Sans FB;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(83,83,83,1);
+	/* margin-left: 20px;
+	margin-right: 20px;
+	width: 80%; */
+	/* margin-top: 4%; */
+}
+
+#explore .explore_text{
+    /* padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 90px;	 */
+/* 		
+	margin-left: 20px;
+	margin-right: 20px; */
+    width: 100%;
+    text-align: center;
+    /* margin-top: 4%; */
+    line-height: 25px;
+    
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color:rgba(83,83,83,1);
+}
+
+
+/* Bullets */
+
+
+#bullets {
+    column-count: 3;
+    column-width: 100px;
+    column-gap: 5px;
+    /* column-rule: 5px solid lightblue;
+    background-color:rgb(173, 41, 85); */
+    
+}
+
+
+#bullet_1{
+    
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: center;
+    
+    
+}
+#bullet_2{
+    
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+	float: center;
+    display: block;
+}
+#bullet_3{
+    
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+	float: center;
+    display: block;
+}
+
+.img_bullet_1{    
+    width: 70%;
+}
+
+.img_bullet_2{    
+    width: 70%;
+}
+
+.img_bullet_3{    
+    width: 70%;
+}
+
+#text_bullet_1{
+    font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color:white;
+}
+
+#text_bullet_2{
+    font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color:white;
+}
+
+#text_bullet_3{
+    font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color:white;
+}
+
+
+
+
+
+/* Location-Based */
+
+#loc_bas {
+    position: relative;
+        /* height: 1080px; */
+    /* background-image: url("img_Loc_Bas.png");
+    height: 100%;
+    width: 100%; */
+    
+}
+
+.loc_bas_text_block{
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    /* background-color: rgba(251,114,106,1); */
+    background-color: transparent;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#loc_bas .loc_bas_title{
+    text-align: center;
+    /* padding-left: 30px;
+    padding-right: 30px;     */
+	
+	
+	font-family: Berlin Sans FB;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color:white;
+	/* margin-left: 20px;
+	margin-right: 20px;
+	width: 80%; */
+	/* margin-top: 4%; */
+}
+
+#loc_bas .loc_bas_text{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;	
+		
+	margin-left: 100px;
+	margin-right: 20px;
+	width: 30%;
+    /* margin-top: 4%; */
+    line-height: 25px;
+    text-align: justify;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color:white;
+}
+
+.loc_bas_img {       
+    width: 100%;
+    object-fit: cover;   
+} 
+
+
+
+/* About */
+
+#about {
+    /*background-color:rgb(67, 64, 112);*/
+    background-color: white;
+    height: 605px;
+}
+
+.column_about {
+	width: 50%;
+	text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+	float: left;
+}
+
+#about .about_title{
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;    
+	text-align: left;
+	line-height: 65px;
+	font-family: Berlin Sans FB;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(83,83,83,1);
+	margin-left: 100px;
+	margin-right: 20px;
+	width: 80%;
+	margin-top: 4%;
+}
+
+#about .about_text{
+    padding-left: 30px;
+	padding-right: 30px;	
+	line-height: 25px;	
+	margin-left: 100px;
+	margin-right: 20px;
+	width: 80%;
+    margin-top: 4%;
+    text-align: justify;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(83,83,83,1);
+}
+
+/* .about_logoGate {    
+    width: 15%;    
+    padding-bottom: 10px;    
+}
+
+.about_logoADL {
+    width: 20%;
+    padding-bottom: 10px;    
+} */
+
+.about_logos {
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 10px;    
+}
+
+.social_title{
+    text-align: center;
+    /* display: inline-block;
+    
+    padding-right: 30px;
+    padding-bottom: 5px;     */
+
+    font-size: 30px;
+    font-weight: normal;	
+	color: rgba(251,114,106,1);
+    font-family: Berlin Sans FB;
+    padding-left: 30px;
+    padding-top: 100px;
+    
+}
+
+.social_icons{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+.logo_fb{
+    width: 10%;
+    color: rgba(251,114,106,1);
+}
+
+.logo_insta{
+    width: 7%;
+    color: rgba(251,114,106,1);
+}
+
+/* Contact */
+
+footer {
+	background-color: #4BA3FF;
+	padding-top: 5px;
+    padding-bottom: 5PX;
+    border-bottom: 1px solid white; 
+    
+}
+
+
+.dok{
+    display: inline;
+}
+
+#contact .contact_title{
+    text-align: center;
+    /* display: inline-block;
+    
+    padding-right: 30px;
+    padding-bottom: 5px;     */
+
+    font-size: 45px;
+    font-weight: normal;	
+	color:white;
+    font-family: Berlin Sans FB;
+    /* padding-left: 30px;
+    margin-left: 100px; */
+	/* font-style: normal;
+	
+	
+	margin-right: 20px;
+	width: 80%;
+	margin-top: 4%; */
+}
+
+#contact .contact_text{
+    /* 
+	padding-right: 30px;	
+	width: 80%;
+    margin-top: 4%; */
+    text-align: center;
+    font-size: 16px;
+    font-family: Poppins;
+    margin-right: 20px;
+	font-style: normal;
+	font-weight: lighter;
+    /* margin-left: 100px;
+    padding-left: 30px; */
+    color: white;
+    letter-spacing: 1px;
+    white-space: pre-wrap; /* na dw mhpws mou kanei thema*/
+}
+
+/* .logo_Nar_white{
+    float: right;
+    width: 5%;
+    position:absolute;
+} */
+
+
+
+
+/* Copyright */
+
+.copyright{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color:#4BA3FF;
+	color: #FFFFFF;	
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
